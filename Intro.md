@@ -20,5 +20,10 @@ Artificial Intelligence (AI) is the science and engineering of making intelligen
 - Recommendation systems (Netflix, YouTube)
 
 
-
-
+## Goals of Artificial Intelligence
+- To create intelligent systems that can simulate human intelligence
+- To enable machines to learn from experience
+- To solve complex problems efficiently
+- To assist humans in decision making
+- To improve automation and productivity
+- AI helps in automation of tasks
