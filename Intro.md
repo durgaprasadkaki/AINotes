@@ -27,3 +27,43 @@ Artificial Intelligence (AI) is the science and engineering of making intelligen
 - To assist humans in decision making
 - To improve automation and productivity
 - AI helps in automation of tasks
+
+## Types of Artificial Intelligence
+
+### Weak AI (Narrow AI)
+Weak AI is designed to perform a specific task. It does not have general intelligence or self-awareness.
+
+**Examples:**
+- Chatbots
+- Voice assistants
+- Recommendation systems
+
+### Strong AI (General AI)
+Strong AI refers to machines that possess human-like intelligence and can perform any intellectual task that a human can do.
+
+**Status:**  
+Strong AI is still theoretical and does not exist today.
+
+---
+
+## AI vs Human Intelligence
+- AI works based on data and algorithms
+- Human intelligence involves emotions and creativity
+- AI is faster in computation
+- Humans are better at understanding context and emotions
+
+---
+
+## Advantages of Artificial Intelligence
+- Reduces human effort
+- Improves efficiency and accuracy
+- Can work continuously without fatigue
+- Helps in solving complex problems
+
+---
+
+## Disadvantages of Artificial Intelligence
+- High development cost
+- Lack of creativity and emotions
+- Dependency on machines
+- Risk of job displacement
