@@ -67,3 +67,26 @@ Strong AI is still theoretical and does not exist today.
 - Lack of creativity and emotions
 - Dependency on machines
 - Risk of job displacement
+
+## Intelligent Agents
+
+An intelligent agent is an entity that perceives its environment through sensors and acts upon that environment using actuators in order to achieve its goals.
+
+## Components of an Intelligent Agent
+- Sensors: Used to perceive the environment
+- Actuators: Used to perform actions
+- Agent program: Controls the agent’s actions
+- Environment: The surroundings in which the agent operates
+
+## Types of Intelligent Agents
+- Simple reflex agents
+- Model-based agents
+- Goal-based agents
+- Utility-based agents
+- Learning agents
+
+## Examples of Intelligent Agents
+- Autonomous robots
+- Smart thermostats
+- Self-driving cars
+- Game-playing agents
