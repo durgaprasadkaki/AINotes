@@ -90,3 +90,23 @@ An intelligent agent is an entity that perceives its environment through sensors
 - Smart thermostats
 - Self-driving cars
 - Game-playing agents
+## AI Problem Solving
+
+AI problem solving is the process of finding a sequence of actions that leads from an initial state to a goal state using intelligent techniques.
+
+## Problem Solving Steps in AI
+1. Define the problem clearly
+2. Identify the initial state
+3. Specify the goal state
+4. Determine possible actions
+5. Apply search strategies to reach the solution
+
+## Role of Heuristics in AI
+A heuristic is a rule or method that helps in making decisions faster by reducing the search space.
+
+## Importance of Problem Solving in AI
+- Helps in handling complex tasks
+- Reduces human effort
+- Improves decision making
+- Forms the foundation for search algorithms
+
