@@ -110,3 +110,28 @@ A heuristic is a rule or method that helps in making decisions faster by reducin
 - Improves decision making
 - Forms the foundation for search algorithms
 
+## Generate and Test Method
+
+Generate and Test is a basic problem-solving technique in Artificial Intelligence where possible solutions are generated and tested one by one until a solution is found.
+
+## Steps in Generate and Test
+1. Generate a possible solution
+2. Test the solution against the goal
+3. If the solution is correct, stop
+4. If not, generate another solution and repeat
+
+## Advantages of Generate and Test
+- Simple and easy to implement
+- Useful when the solution space is small
+- Can be applied to a wide range of problems
+
+## Disadvantages of Generate and Test
+- Time-consuming for large problem spaces
+- No guarantee of optimal solution
+- Inefficient without heuristics
+
+## Applications of Generate and Test
+- Puzzle solving
+- Game playing
+- Constraint satisfaction problems
+
