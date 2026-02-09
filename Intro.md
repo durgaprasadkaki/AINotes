@@ -135,3 +135,29 @@ Generate and Test is a basic problem-solving technique in Artificial Intelligenc
 - Game playing
 - Constraint satisfaction problems
 
+## Hill Climbing Algorithm
+
+Hill Climbing is a heuristic search algorithm used in Artificial Intelligence that continuously moves towards a better solution by selecting the best neighboring state.
+
+## Working of Hill Climbing
+1. Start with an initial state
+2. Evaluate the neighboring states
+3. Select the neighbor with the highest value
+4. Move to that neighbor
+5. Stop when no better neighbor exists
+
+## Advantages of Hill Climbing
+- Simple and easy to implement
+- Uses less memory
+- Faster for local optimization problems
+
+## Disadvantages of Hill Climbing
+- Can get stuck in local maxima
+- Suffers from plateaus and ridges
+- No guarantee of global optimum
+
+## Applications of Hill Climbing
+- Optimization problems
+- AI game playing
+- Robotics path planning
+
