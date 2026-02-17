@@ -1,163 +1,189 @@
-\# Artificial Intelligence – Introduction
+# Artificial Intelligence – Introduction
 
+Artificial Intelligence (AI) is a branch of computer science that builds systems capable of tasks requiring human intelligence, such as learning, reasoning, and decision-making.
 
+## Definition
+AI is the science and engineering of creating intelligent machines and software that can perceive, learn, and act.
 
-Artificial Intelligence (AI) is a branch of computer science that focuses on creating machines capable of performing tasks that require human intelligence.
+## Key Characteristics
+- Learns from data
+- Reasons and makes decisions
+- Solves problems
+- Adapts to new situations
 
-## Definition of Artificial Intelligence
-Artificial Intelligence (AI) is the science and engineering of making intelligent machines, especially intelligent computer programs that can think, learn, and act like humans.
-
-## Characteristics of AI
-- Ability to learn from data
-- Reasoning and decision making
-- Problem solving capability
-- Adaptability to new situations
-
-## Applications of AI
+## Common Applications
 - Virtual assistants (Siri, Alexa)
-- Medical diagnosis systems
-- Self-driving cars
+- Medical diagnosis support
+- Self-driving vehicles
 - Recommendation systems (Netflix, YouTube)
 
+## Goals of AI
+- Simulate intelligent behavior
+- Learn from experience
+- Solve complex problems efficiently
+- Support human decision-making
+- Improve automation and productivity
 
-## Goals of Artificial Intelligence
-- To create intelligent systems that can simulate human intelligence
-- To enable machines to learn from experience
-- To solve complex problems efficiently
-- To assist humans in decision making
-- To improve automation and productivity
-- AI helps in automation of tasks
-
-## Types of Artificial Intelligence
-
+## Types of AI
 ### Weak AI (Narrow AI)
-Weak AI is designed to perform a specific task. It does not have general intelligence or self-awareness.
+Built for specific tasks only.
 
-**Examples:**
-- Chatbots
-- Voice assistants
-- Recommendation systems
+Examples: chatbots, voice assistants, recommendation systems.
 
 ### Strong AI (General AI)
-Strong AI refers to machines that possess human-like intelligence and can perform any intellectual task that a human can do.
+Would perform any intellectual task like humans.
 
-**Status:**  
-Strong AI is still theoretical and does not exist today.
-
----
+Status: theoretical, not yet achieved.
 
 ## AI vs Human Intelligence
-- AI works based on data and algorithms
-- Human intelligence involves emotions and creativity
-- AI is faster in computation
-- Humans are better at understanding context and emotions
+- AI: fast computation, data-driven decisions
+- Humans: creativity, emotions, contextual understanding
 
----
-
-## Advantages of Artificial Intelligence
+## Advantages of AI
 - Reduces human effort
-- Improves efficiency and accuracy
-- Can work continuously without fatigue
-- Helps in solving complex problems
+- Improves speed and accuracy
+- Works continuously without fatigue
+- Helps solve complex tasks
 
----
-
-## Disadvantages of Artificial Intelligence
+## Disadvantages of AI
 - High development cost
-- Lack of creativity and emotions
-- Dependency on machines
-- Risk of job displacement
+- Limited creativity and emotions
+- Dependence on machines
+- Potential job displacement
 
 ## Intelligent Agents
+An intelligent agent perceives its environment (through sensors) and acts on it (through actuators) to achieve goals.
 
-An intelligent agent is an entity that perceives its environment through sensors and acts upon that environment using actuators in order to achieve its goals.
+### Components
+- Sensors
+- Actuators
+- Agent program
+- Environment
 
-## Components of an Intelligent Agent
-- Sensors: Used to perceive the environment
-- Actuators: Used to perform actions
-- Agent program: Controls the agent’s actions
-- Environment: The surroundings in which the agent operates
+### Types
+- Simple reflex agent
+- Model-based agent
+- Goal-based agent
+- Utility-based agent
+- Learning agent
 
-## Types of Intelligent Agents
-- Simple reflex agents
-- Model-based agents
-- Goal-based agents
-- Utility-based agents
-- Learning agents
-
-## Examples of Intelligent Agents
-- Autonomous robots
-- Smart thermostats
-- Self-driving cars
-- Game-playing agents
 ## AI Problem Solving
+AI problem solving means finding a sequence of actions from an initial state to a goal state.
 
-AI problem solving is the process of finding a sequence of actions that leads from an initial state to a goal state using intelligent techniques.
+### Basic Steps
+1. Define the problem
+2. Identify initial state
+3. Define goal state
+4. List possible actions
+5. Apply search strategy
 
-## Problem Solving Steps in AI
-1. Define the problem clearly
-2. Identify the initial state
-3. Specify the goal state
-4. Determine possible actions
-5. Apply search strategies to reach the solution
+### Role of Heuristics
+A heuristic is a rule-of-thumb that helps reach solutions faster by reducing the search space.
 
-## Role of Heuristics in AI
-A heuristic is a rule or method that helps in making decisions faster by reducing the search space.
+## Generate and Test
+Generate possible solutions and test them one by one until a valid solution is found.
 
-## Importance of Problem Solving in AI
-- Helps in handling complex tasks
-- Reduces human effort
-- Improves decision making
-- Forms the foundation for search algorithms
+### Pros
+- Simple to understand
+- Useful for small search spaces
 
-## Generate and Test Method
+### Cons
+- Slow for large problems
+- Not always optimal
 
-Generate and Test is a basic problem-solving technique in Artificial Intelligence where possible solutions are generated and tested one by one until a solution is found.
+## Hill Climbing
+A heuristic method that repeatedly moves to a better neighboring state.
 
-## Steps in Generate and Test
-1. Generate a possible solution
-2. Test the solution against the goal
-3. If the solution is correct, stop
-4. If not, generate another solution and repeat
+### Limitation
+Can get stuck in local maxima, plateaus, or ridges.
 
-## Advantages of Generate and Test
-- Simple and easy to implement
-- Useful when the solution space is small
-- Can be applied to a wide range of problems
+## Search Strategies
 
-## Disadvantages of Generate and Test
-- Time-consuming for large problem spaces
-- No guarantee of optimal solution
-- Inefficient without heuristics
+### Uninformed (Blind) Search
+- **BFS**: level by level, complete and optimal (equal costs)
+- **DFS**: deep first, not always optimal
+- **Uniform Cost Search**: expands lowest path cost, optimal
 
-## Applications of Generate and Test
-- Puzzle solving
-- Game playing
-- Constraint satisfaction problems
+### Informed (Heuristic) Search
+Uses heuristic function $h(n)$ to estimate distance to goal.
 
-## Hill Climbing Algorithm
+- **Best-First Search**: $f(n)=h(n)$
+- **A\***: $f(n)=g(n)+h(n)$
 
-Hill Climbing is a heuristic search algorithm used in Artificial Intelligence that continuously moves towards a better solution by selecting the best neighboring state.
+Where:
+- $g(n)$ = cost from start to current node
+- $h(n)$ = estimated cost from current node to goal
 
-## Working of Hill Climbing
-1. Start with an initial state
-2. Evaluate the neighboring states
-3. Select the neighbor with the highest value
-4. Move to that neighbor
-5. Stop when no better neighbor exists
+### Admissible Heuristic
+A heuristic is admissible if it never overestimates true cost.
 
-## Advantages of Hill Climbing
-- Simple and easy to implement
-- Uses less memory
-- Faster for local optimization problems
+Example: straight-line distance in maps.
 
-## Disadvantages of Hill Climbing
-- Can get stuck in local maxima
-- Suffers from plateaus and ridges
-- No guarantee of global optimum
+## Quick Comparison
+| Algorithm | Uses Heuristic | Optimal | Complete |
+|---|---|---|---|
+| BFS | No | Yes | Yes |
+| DFS | No | No | No |
+| Best-First | Yes | No | No |
+| A* | Yes | Yes | Yes |
 
-## Applications of Hill Climbing
-- Optimization problems
-- AI game playing
-- Robotics path planning
+## Conclusion
+Search is central to AI problem solving, and heuristic methods like A* improve efficiency in real-world tasks such as route planning and robotics.
+Add this **after Search Strategies**:
 
+## Knowledge Representation and Reasoning (KRR)
+
+Knowledge Representation and Reasoning is a core area of AI that focuses on storing knowledge in a form that machines can use to solve problems and make decisions.
+
+### Why KRR is Needed
+- Helps AI understand facts about the world
+- Supports logical decision-making
+- Improves problem solving in complex situations
+- Enables explanation of conclusions
+
+### Types of Knowledge in AI
+- **Declarative knowledge:** facts (what is true)
+- **Procedural knowledge:** steps or methods (how to do)
+- **Heuristic knowledge:** rules of thumb
+- **Meta-knowledge:** knowledge about other knowledge
+
+### Common Knowledge Representation Techniques
+- **Logic-based representation** (Propositional and Predicate Logic)
+- **Semantic Networks** (nodes and relationships)
+- **Frames** (structured object-like records)
+- **Production Rules** (`IF condition THEN action`)
+
+### Reasoning in AI
+Reasoning is the process of deriving new information from known facts.
+
+#### 1) Deductive Reasoning
+- Moves from general rule to specific conclusion
+- If premises are true, conclusion is guaranteed true
+
+#### 2) Inductive Reasoning
+- Moves from specific observations to general rule
+- Conclusion is probable, not guaranteed
+
+#### 3) Abductive Reasoning
+- Finds the most likely explanation for observations
+
+### Inference
+Inference is applying rules to known facts to get new facts.  
+Example rule: `IF human(X) THEN mortal(X)`.
+
+### Applications of KRR
+- Expert systems
+- Medical diagnosis
+- Legal advisory systems
+- Chatbots and virtual assistants
+- Planning and decision support systems
+
+### Limitations of KRR
+- Difficult to represent real-world uncertainty
+- Large knowledge bases are hard to maintain
+- Ambiguity in natural language
+
+## Short Conclusion
+KRR gives AI the ability to represent knowledge and reason logically, making systems more intelligent and useful in real-world decision-making.
+
+If you want, I can give the next topic in the same flow: **Expert Systems** (architecture, components, advantages, limitations).
