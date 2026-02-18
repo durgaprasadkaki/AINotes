@@ -187,3 +187,52 @@ Example rule: `IF human(X) THEN mortal(X)`.
 KRR gives AI the ability to represent knowledge and reason logically, making systems more intelligent and useful in real-world decision-making.
 
 If you want, I can give the next topic in the same flow: **Expert Systems** (architecture, components, advantages, limitations).
+## Topic: A* Search Algorithm
+
+### Introduction
+A* (A-Star) is an informed search algorithm that finds the shortest path between start and goal nodes. 
+It combines the advantages of Uniform Cost Search and Greedy Best First Search.
+
+### Evaluation Function
+A* uses the function:
+
+f(n) = g(n) + h(n)
+
+Where:
+g(n) = actual cost from start node to current node  
+h(n) = heuristic estimate from current node to goal  
+f(n) = total estimated cost
+
+### Working Principle
+1. Start from initial node.
+2. Calculate f(n) for all neighbor nodes.
+3. Select the node with lowest f(n).
+4. Repeat until goal is reached.
+
+### Properties
+- Complete: Yes (if heuristic is admissible)
+- Optimal: Yes (if heuristic is admissible)
+- Efficient compared to uninformed search
+
+### Example
+If:
+g(n) = 5
+h(n) = 3
+Then:
+f(n) = 5 + 3 = 8
+
+The algorithm chooses node with minimum f(n).
+
+### Advantages
+- Faster than uninformed search
+- Guarantees shortest path (with admissible heuristic)
+
+### Disadvantages
+- High memory usage
+- Performance depends on heuristic quality
+
+### Applications
+- GPS Navigation
+- Robotics path planning
+- Game AI
+- Network routing
