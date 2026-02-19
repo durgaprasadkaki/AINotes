@@ -236,3 +236,72 @@ The algorithm chooses node with minimum f(n).
 - Robotics path planning
 - Game AI
 - Network routing
+# AI Notes
+
+## Topic: AO* Algorithm (AND-OR Search)
+
+### Introduction
+AO* Algorithm is an informed search algorithm used for solving problems that can be represented using AND-OR graphs. It is an extension of the A* algorithm.
+
+In many real-world problems, solving one problem may require solving multiple sub-problems. AO* helps find the optimal solution path in such cases.
+
+### AND-OR Graph
+There are two types of nodes:
+
+1. OR Node
+- Only one child needs to be solved
+- Example: Choose one path from multiple options
+
+2. AND Node
+- All child nodes must be solved
+- Example: Complete all required tasks
+
+### Evaluation Function
+AO* uses heuristic function:
+
+f(n) = g(n) + h(n)
+
+Where:
+g(n) = cost to reach current node  
+h(n) = estimated cost to reach goal  
+
+### Working Process
+1. Start from initial node
+2. Expand the most promising node
+3. Calculate cost using heuristic function
+4. Mark solved nodes
+5. Continue until goal node is solved
+
+### Example
+Suppose:
+Node A has two options:
+- OR path → B (cost = 5)
+- AND path → C and D (cost = 2 + 3 = 5)
+
+AO* chooses optimal path based on minimum cost.
+
+### Advantages
+- Finds optimal solution
+- Efficient for complex problems
+- Uses heuristic guidance
+
+### Disadvantages
+- Complex implementation
+- Requires more memory
+
+### Applications
+- Problem reduction
+- Game AI
+- Expert systems
+- Planning systems
+
+### Difference between A* and AO*
+
+| Feature | A* | AO* |
+|--------|----|-----|
+| Graph Type | OR graph | AND-OR graph |
+| Path Selection | Single path | Multiple paths possible |
+| Usage | Pathfinding | Problem decomposition |
+
+### Conclusion
+AO* algorithm is useful for solving complex problems that involve multiple dependent sub-problems using AND-OR graph representation.
