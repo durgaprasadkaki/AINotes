@@ -293,6 +293,62 @@ AO* chooses optimal path based on minimum cost.
 - Problem reduction
 - Game AI
 - Expert systems
+
+⭐ A* Algorithm
+1. Introduction
+The A* (A-Star) algorithm is a heuristic search algorithm used to find the optimal path from a start node to a goal node.
+It combines the advantages of Uniform Cost Search and Greedy Best-First Search.
+The algorithm evaluates nodes using a cost function.
+Evaluation Function
+Where:
+g(n) = Actual cost from start node to node n
+h(n) = Heuristic estimate from node n to goal
+f(n) = Total estimated cost of the solution path through n
+The node with the lowest f(n) is expanded first.
+2. Steps of A* Algorithm
+Start with the initial node.
+Place the start node in the OPEN list.
+Select the node with the lowest f(n) value.
+Move the node to the CLOSED list.
+Expand the node and generate successor nodes.
+Compute f(n) = g(n) + h(n) for each successor.
+Add successors to the OPEN list.
+Repeat until the goal node is reached.
+3. Advantages
+Guarantees optimal solution if heuristic is admissible.
+Efficient compared to uninformed search methods.
+Widely used in pathfinding and AI planning.
+4. Applications
+Robot navigation
+GPS route finding
+Game AI pathfinding
+Network routing
+⭐ AO* Algorithm
+1. Introduction
+The AO* algorithm is a heuristic search algorithm used for AND-OR graphs.
+Unlike A*, which works with OR graphs, AO* handles problems where multiple subproblems must be solved together.
+In an AND-OR graph:
+OR node → choose one child
+AND node → must solve all children
+AO* searches for the best solution graph rather than a single path.
+2. Working Principle
+Start with the initial node.
+Expand the node and generate its children.
+Assign heuristic cost values to nodes.
+Calculate the minimum cost path.
+Mark the best nodes.
+Continue expanding until the goal nodes are reached.
+The algorithm updates costs and marks optimal paths dynamically.
+3. Features
+Works on AND-OR graphs.
+Finds optimal solution graphs.
+Uses heuristic information.
+Performs backtracking to update costs.
+4. Applications
+Problem reduction systems
+Expert systems
+Automated planning
+Decision making systems
 - Planning systems
 
 ### Difference between A* and AO*
