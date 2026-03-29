@@ -100,6 +100,165 @@ Can get stuck in local maxima, plateaus, or ridges.
 ## Search Strategies
 
 ### Uninformed (Blind) Search
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Depth-Limited Search
+- Iterative Deepening
+
+### Informed (Heuristic) Search
+- Best-First Search
+- A* Search
+- Greedy Search
+
+## Machine Learning Fundamentals
+
+Machine learning enables systems to learn and improve from experience without being explicitly programmed.
+
+### Types of Machine Learning
+
+#### Supervised Learning
+Model learns from labeled data (input-output pairs).
+
+**Key Algorithms:**
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- Random Forest
+- Support Vector Machines (SVM)
+- Naive Bayes
+- K-Nearest Neighbors (KNN)
+
+**Applications:** Classification, regression, prediction
+
+#### Unsupervised Learning
+Model learns patterns from unlabeled data.
+
+**Key Algorithms:**
+- K-Means Clustering
+- Hierarchical Clustering
+- DBSCAN
+- Principal Component Analysis (PCA)
+
+**Applications:** Clustering, dimensionality reduction, anomaly detection
+
+#### Reinforcement Learning
+Agent learns by interacting with environment and receiving rewards/penalties.
+
+**Key Concepts:**
+- Agent
+- Environment
+- State
+- Action
+- Reward
+- Policy
+
+**Applications:** Game AI, robotics, autonomous systems
+
+### Overfitting and Underfitting
+- **Overfitting:** Model performs well on training data but poorly on test data (high variance)
+- **Underfitting:** Model performs poorly on both training and test data (high bias)
+
+### Regularization Techniques
+- L1 Regularization (Lasso)
+- L2 Regularization (Ridge)
+- Dropout
+- Early Stopping
+- Cross-validation
+
+## Deep Learning
+
+Deep learning uses neural networks with multiple layers to learn hierarchical representations.
+
+### Neural Network Basics
+- **Neuron:** Mathematical unit that receives inputs, weights them, and produces output
+- **Activation Function:** Non-linear function (ReLU, Sigmoid, Tanh)
+- **Layer:** Collection of neurons
+- **Weights and Biases:** Parameters learned during training
+- **Backpropagation:** Efficient algorithm for training neural networks
+
+### Types of Neural Networks
+
+#### Convolutional Neural Networks (CNN)
+- Used for image processing
+- Components: Convolutional layers, pooling layers, fully connected layers
+- Applications: Image classification, object detection, facial recognition
+
+#### Recurrent Neural Networks (RNN)
+- Used for sequential data
+- Variants: LSTM, GRU
+- Applications: Time series prediction, language modeling, machine translation
+
+#### Transformer Networks
+- Based on attention mechanism
+- Parallel processing of sequences
+- Foundation for modern LLMs
+- Applications: NLP, machine translation, text generation
+
+## Natural Language Processing (NLP)
+
+### Key Tasks
+- Text classification
+- Sentiment analysis
+- Named entity recognition (NER)
+- Machine translation
+- Question answering
+- Text summarization
+
+### Techniques
+- Tokenization
+- Stemming and Lemmatization
+- Word Embeddings (Word2Vec, GloVe, FastText)
+- Attention Mechanism
+- Transformer Models (BERT, GPT, T5)
+
+## Knowledge Representation and Reasoning
+
+### Methods
+- Semantic Networks
+- Frames
+- Rules and Logic
+- Ontologies
+
+### Expert Systems
+Systems that capture expert knowledge and use it to solve problems in specific domains.
+
+### Knowledge Graphs
+Networks of entities and relationships used for knowledge representation and reasoning.
+
+## Natural Language Understanding
+
+### Components
+- Named Entity Recognition (NER)
+- Relationship Extraction
+- Dependency Parsing
+- Semantic Role Labeling
+
+## Ethics in AI
+
+### Concerns
+- Bias and fairness
+- Privacy and data protection
+- Transparency and explainability (XAI)
+- Safety and security
+- Job displacement
+- Autonomous systems accountability
+
+### Best Practices
+- Diverse training data
+- Regular audits for bias
+- Explainable models
+- Privacy-by-design
+- Ethical guidelines and governance
+
+## Future of AI
+- AGI (Artificial General Intelligence) research
+- Multimodal AI combining vision, language, audio
+- Federated learning for privacy
+- Edge AI deployment
+- Quantum computing applications
+- Human-AI collaboration
+
+### Uninformed (Blind) Search
 - **BFS**: level by level, complete and optimal (equal costs)
 - **DFS**: deep first, not always optimal
 - **Uniform Cost Search**: expands lowest path cost, optimal
