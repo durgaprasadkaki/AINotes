@@ -288,7 +288,6 @@ Example: straight-line distance in maps.
 
 ## Conclusion
 Search is central to AI problem solving, and heuristic methods like A* improve efficiency in real-world tasks such as route planning and robotics.
-Add this **after Search Strategies**:
 
 ## Knowledge Representation and Reasoning (KRR)
 
