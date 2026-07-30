@@ -9,7 +9,7 @@ AI is the science and engineering of creating intelligent machines and software 
 - Learns from data
 - Reasons and makes decisions
 - Solves problems
-- Adapts to new situations
+- Adapts to new situation
 
 ## Common Applications
 - Virtual assistants (Siri, Alexa)
