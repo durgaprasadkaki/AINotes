@@ -8,7 +8,7 @@ AI is the science and engineering of creating intelligent machines and software 
 ## Key Characteristics
 - Learns from data
 - Reasons and makes decisions
-- Solves problems
+- Solves problem
 - Adapts to new situation
 ## Common Applications
 - Virtual assistants (Siri,Alexa)
