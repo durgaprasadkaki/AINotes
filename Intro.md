@@ -30,7 +30,7 @@ Built for specific tasks only.
 Examples: chatbots, voice assistants, recommendation systems.
 
 ### Strong AI (General AI)
-Would perform any intellectual task like humans.
+Would perform any intellectual task like humans.  
 
 Status: theoretical, not yet achieved.
 
