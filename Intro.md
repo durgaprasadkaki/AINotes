@@ -45,7 +45,7 @@ Status: theoretical, not yet achieved.
 - Helps solve complex tasks
 
 ## Disadvantages of AI
-- High development cost
+- High development cost. 
 - Limited creativity and emotions
 - Dependence on machines
 - Potential job displacement
