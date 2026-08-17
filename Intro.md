@@ -520,8 +520,7 @@ Decision making systems
 AO* algorithm is useful for solving complex problems that involve multiple dependent sub-problems using AND-OR graph representation.
 
 After studying search techniques like A* and AO*, the next important topic in Artificial Intelligence is Knowledge Representation. Knowledge Representation focuses on how information about the real world can be structured and stored in a system so that it can be effectively used for reasoning and decision-making. It includes methods such as Propositional Logic, which deals with simple true or false statements, and Predicate Logic, which extends this by using variables and relationships. Other approaches like Frames represent knowledge in structured formats similar to objects, while techniques like Resolution and Natural Deduction are used for logical inference and problem-solving. This topic is essential because it forms the foundation for intelligent systems to understand, process, and reason about information.
-
-
+
 ###
 This topic is essential because it forms the foundation for intelligent systems to understand, process, and reason about information. Artificial Intelligence (AI) is the ability of computers and machines to simulate human cognitive functions. These tasks traditionally require human intelligence. It includes learning, reasoning, problem-solving, perception in artificial intelligence and machine learning.
 
