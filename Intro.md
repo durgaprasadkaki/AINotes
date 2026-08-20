@@ -57,8 +57,7 @@ An intelligent agent perceives its environment (through sensors) and acts on it 
 - Sensors
 - Actuators
 - Agent program
-- Environment
-
+- Environment
 ### Types
 - Simple reflex agent
 - Model-based agent
