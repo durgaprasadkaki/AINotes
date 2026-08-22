@@ -34,7 +34,7 @@ Would perform any intellectual task like humans.
 
 Status: theoretical, not yet achieved.
 
-## AI vs Human Intelligence
+## AI vs Human Intelligence 
 - AI: fast computation, data-driven decisions
 - Humans: creativity, emotions, contextual understanding
 
