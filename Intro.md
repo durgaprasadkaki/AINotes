@@ -27,8 +27,7 @@ AI is the science and engineering of creating intelligent machines and software 
 ### Weak AI (Narrow AI)
 Built for specific tasks only.
 
-Examples: chatbots, voice assistants, recommendation systems.
-
+Examples: chatbots, voice assistants, recommendation systems.
 ### Strong AI (General AI)
 Would perform any intellectual task like humans.  
 
