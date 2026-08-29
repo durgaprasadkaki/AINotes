@@ -1,4 +1,4 @@
-   # Artificial Intelligence – Introduction
+    # Artificial Intelligence – Introduction
 
 Artificial Intelligence (AI) is a branch of computer science that builds systems capable of tasks requiring human intelligence, such as learning, reasoning, and decision-making.
 
