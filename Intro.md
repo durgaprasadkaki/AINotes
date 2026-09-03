@@ -3,8 +3,7 @@
 Artificial Intelligence (AI) is a branch of computer science that builds systems capable of tasks requiring human intelligence, such as learning, reasoning, and decision-making.
 
 ## Definition
-AI is the science and engineering of creating intelligent machines and software that can perceive, learn, and act.
-
+AI is the science and engineering of creating intelligent machines and software that can perceive, learn, and act.
 ## Key Characteristics
 - Learns from data
 - Reasons and makes decisions
