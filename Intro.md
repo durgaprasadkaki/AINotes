@@ -10,7 +10,7 @@ AI is the science and engineering of creating intelligent machines and software 
 - Solves problem
 - Adapts to new situation
 ## Common Applications
-- Virtual assistants (Siri,Alexa)..
+- Virtual assistants (Siri,Alexa)
 - Medical diagnosis support
 - Self-driving vehicles
 - Recommendation systems (Netflix, YouTube)
